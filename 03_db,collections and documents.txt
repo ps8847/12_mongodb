@@ -1,0 +1,21 @@
+1.show dbs;
+
+2.use princesharmadb
+
+3.db.princedata.insertOne({name:"nodejs", type:"backend" , tutorials:"80", active:true})
+
+// db >> cureent database
+// princedata  >>  tablename / collection
+// baaki fields
+
+Output: 
+{
+  acknowledged: true,
+  insertedId: ObjectId("6310690cbfcb2e4b81eba053")     // can treat it as primary key 
+}
+
+4. db   //current active db
+
+5. show collections     //no of tables inside it
+
+6. db.princedata.find()     // to find all the data inside this table

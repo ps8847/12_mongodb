@@ -1,0 +1,18 @@
+1. show dbs
+
+CRUD 
+************************create**************************
+
+
+2.use princesharmadb
+
+3. db.princedata.find()
+
+4. db.princedata.insertOne({name:"mongodb", type:"database", videos:5, active:true })
+
+5. db.princedata.insertMany([
+    { name:"java", type:"prorgammming lang", videos: 40, active:true},
+    {name:"javascript", type:"font end", videos:50, active: true }
+    ]);
+
+6. db.princedata.find()

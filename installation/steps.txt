@@ -1,0 +1,7 @@
+1. go to google type :   mongodb installation community
+2. a website will open 
+
+2. simply download it  >>> during installation click (complete)  >> after that at the end 
+                                    uncheck the (download compass)
+
+3. after that go to google again :: that same website and portion again

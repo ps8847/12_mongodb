@@ -1,0 +1,20 @@
+1. show dbs
+
+CRUD 
+************************  Update  **************************
+
+        UpdateOne() => db.collectionname.updateOne(<filter>, <update>)
+        UpdateMany() => db.collectionname.updateMany(<filter>, <update>)
+
+
+1. update the javascript type value to "Full Stack"
+        @ db.princedata.updateOne({ name: "javascript" }, { $set: { type: "Full stack" } })
+
+2. update all the fields with the type value equals to "front end" and set the value of status to false.
+        @ db.princedata.updateOne({ name: "java" }, { $set: { name: "Reactjs" } } )
+        @ db.princedata.updateOne({ name: "Reactjs" }, { $set: { type: "Front end" } } )
+        @ db.princedata.updateOne({ name: "javascript" }, { $set: { type: "Front end" } } )
+
+        db.princedata.updateMany({ type: "Front end" }, { $set: {active:false } } )
+
+( the $set operator replaces the value of a field with the specified value.  )

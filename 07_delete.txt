@@ -1,0 +1,13 @@
+1. show dbs
+
+CRUD 
+************************  Delete  **************************
+
+    deleteMany() => db.Collection_name.deleteMany(Deletion_cirteria)
+
+1. delete the field with the type matches "full stack"
+        @ db.princedata.insertOne({name:"java", type:"Full Stack", videos:5, active:true })
+        @ db.princedata.deleteMany({type:"Full Stack"})
+
+2. to deletefull document
+        @ db.princedata.deleteMany()

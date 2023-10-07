@@ -1,0 +1,10 @@
+mongoose is an object data modeling (ODM) library for mongodb and nodejs . it managages relationships between data, provides schema validation, and it is used to translate between objects in code and the representaion of those objects in mongodb.
+
+main advantages of mongoose 
+
+1. Mongoose provides an abstration layer on top of mongodb that eliminates the need to use named collections.
+2. models in mongoose perform the bulk of the work of establishing up default values for document properties and validating data.
+3. functions may be attached to models in mongoosejs. this allows for seamless incorporation of new functionality.
+
+// make >>>>>  npm init -y
+// install mongoose in this folder by  >>>>> npm i mongoose
